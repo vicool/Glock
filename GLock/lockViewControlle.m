@@ -28,6 +28,10 @@ static int countMark;
     [[NSUserDefaults standardUserDefaults]synchronize];
     
     _promptBoardLabel.text =_reset;
+    
+    if([_resetIs isEqualToString:@"resetIs"]){
+        _overlookBtn.hidden=YES;
+    }
 }
 - (void)viewDidLoad {
     [super viewDidLoad];

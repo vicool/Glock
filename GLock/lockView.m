@@ -8,7 +8,7 @@
 
 #import "lockView.h"
 
-#define LINECOLOR [UIColor colorWithRed:25/255.0 green:25/255.0 blue:15/55.0 alpha:1.0]
+#define LINECOLOR [UIColor whiteColor]
 #define SWHITH [UIScreen mainScreen].bounds.size.width
 #define SHIGHT [UIScreen mainScreen].bounds.size.height
 CGPoint Aloc;
